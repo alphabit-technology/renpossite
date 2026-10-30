@@ -98,6 +98,7 @@ def home():
 
     put_in_col(section(s, "Front of house section"), 1, "combo")
     put_in_col(section(s, "Back of house section"), 0, "kitchen")
+    put_in_col(section(s, "Online section"), 1, "online")
     put_in_col(section(s, "Host stand section"), 1, "host")
     put_in_col(section(s, "Control section"), 0, "approval")
 
@@ -125,12 +126,14 @@ def home():
     first = next(e for e in walk(s) if e["data"].get("label", "").startswith(LABEL))
     first["data"]["value"] = css() + "\n\n" + first["data"]["value"]
     save(path, doc, s)
-    print("ren-home: hero, combo, kitchen, flow, host, approval")
+    print("ren-home: hero, combo, kitchen, online, flow, host, approval")
 
 
 FEATURES = {
     "Floor plan": "hero",
     "Orders": "combo",
+    "Online and QR ordering": "online",
+    "Delivery and pickup": "delivery",
     "Kitchen and bar": "kitchen",
     "Menus": "menus",
     "Reservations": "host",

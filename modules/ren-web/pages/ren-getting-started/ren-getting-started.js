@@ -2,7 +2,7 @@
 
 import {BaseDocument} from 'loopar';
 
-export default class Permissions extends BaseDocument {
+export default class RenGettingStarted extends BaseDocument {
     constructor(props){
         super(props);
     }

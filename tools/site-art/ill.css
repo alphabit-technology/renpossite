@@ -9,8 +9,8 @@
 .rp-ill .b{font-weight:600}
 .rp-ill .mut{fill:hsl(var(--muted-foreground))}
 .rp-ill .strike{text-decoration:line-through}
-.rp-ill .bezel{fill:#121a19}
-.dark .rp-ill .bezel{fill:#1d2726;stroke:hsl(var(--border));stroke-width:1}
+.rp-ill .bezel{fill:#16131c}
+.dark .rp-ill .bezel{fill:#211c29;stroke:hsl(var(--border));stroke-width:1}
 .rp-ill .screen{fill:hsl(var(--background))}
 .rp-ill .card{fill:hsl(var(--card));stroke:hsl(var(--border));stroke-width:1}
 .rp-ill .well{fill:hsl(var(--muted)/.55)}

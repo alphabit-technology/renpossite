@@ -2,7 +2,7 @@
 
 import {PageController} from 'loopar';
 
-export default class PermissionsController extends PageController {
+export default class RenGettingStartedController extends PageController {
     constructor(props){
         super(props);
     }
